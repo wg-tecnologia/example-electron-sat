@@ -1,0 +1,33 @@
+{
+  "name": "example-electron-sat",
+  "version": "1.0.0",
+  "description": "Projeto de integração de SAT com electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "nodemon test.js",
+    "postinstall": "npm i electron@11.2.2 --arch=ia32 --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wg-tecnologia/example-electron-sat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wg-tecnologia/example-electron-sat/issues"
+  },
+  "homepage": "https://github.com/wg-tecnologia/example-electron-sat#readme",
+  "dependencies": {
+    "edge-js": "^15.5.2",
+    "electron": "^11.2.2",
+    "electron-edge-js": "^12.18.5",
+    "electron-reload": "^1.5.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
